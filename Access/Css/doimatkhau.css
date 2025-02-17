@@ -1,0 +1,85 @@
+/* Reset mặc định */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container chính */
+.change-password-container {
+    width: 40%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+.change-password-container h1 {
+    font-size: 28px;
+    color: #002f5f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Thông báo */
+.message {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Form đổi mật khẩu */
+.change-password-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.change-password-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.change-password-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Nút hành động */
+.btn-change-password {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-change-password:hover {
+    background-color: #0056b3;
+}
+
+/* Icon Boxicons */
+h1 i {
+    margin-right: 10px;
+    color: #002f5f;
+}
+
+button i {
+    margin-right: 5px;
+}

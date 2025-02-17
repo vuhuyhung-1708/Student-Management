@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.delete-account-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.delete-account-container h1 {
+    font-size: 24px;
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+.delete-account-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.account-info {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.account-info p {
+    margin: 5px 0;
+}
+
+.btn-delete {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-cancel {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background-color: #5a6268;
+}
+
+.message-success {
+    color: #28a745;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.message-error {
+    color: #dc3545;
+    font-size: 16px;
+    margin-top: 20px;
+}

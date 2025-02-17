@@ -1,0 +1,127 @@
+/* Định dạng thông báo */
+.notification {
+    position: fixed; /* Cố định ở góc màn hình */
+    bottom: 20px; /* Cách đáy 20px */
+    right: 20px; /* Cách phải 20px */
+    background-color: #0077cc; /* Màu nền xanh */
+    color: #fff; /* Màu chữ trắng */
+    padding: 15px 20px; /* Khoảng cách bên trong */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    font-size: 16px; /* Kích thước chữ */
+    z-index: 1000; /* Đảm bảo ở trên các phần tử khác */
+    transition: opacity 0.5s ease; /* Hiệu ứng mờ dần */
+}
+
+/* Khi thông báo biến mất */
+.notification.hidden {
+    opacity: 0; /* Độ trong suốt */
+    display: none; /* Ẩn hoàn toàn */
+}
+
+/* Container chính của dashboard */
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Reset mặc định cho body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Màu nền tổng thể */
+}
+
+/* Khoảng cách trước banner */
+.banner-spacing {
+    height: 20px; /* Tạo khoảng cách giữa menu và banner */
+    background-color: #f4f4f4; /* Màu nền cho khoảng cách */
+}
+
+/* Container cho banner */
+.banner-container {
+    width: 95%; /* Giảm chiều rộng để tạo khoảng trống hai bên */
+    height: 350px; /* Chiều cao cố định */
+    margin: 0 auto; /* Căn giữa container */
+    overflow: hidden; /* Ẩn phần tràn */
+    position: relative; /* Định vị */
+    background-color: #ffffff; /* Màu nền */
+    border-bottom: 3px solid #002f5f; /* Viền dưới */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    margin-top: 20px; /* Tạo khoảng cách phía trên banner */
+    border-radius: 8px; /* Bo góc banner */
+}
+
+/* Wrapper chứa các banner */
+.banner-wrapper {
+    display: flex;
+    width: 100%; /* Chiều rộng container */
+    animation: slide 20s infinite; /* Hiệu ứng trượt */
+}
+
+/* Từng banner */
+.banner {
+    flex: 0 0 100%; /* Mỗi banner chiếm 100% chiều rộng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hình ảnh banner */
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hiển thị đầy đủ hình ảnh */
+    border-radius: 0; /* Không bo góc cho hình ảnh */
+}
+
+/* Hiệu ứng trượt */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+}
+/* Section chứa Tin Tức */
+.news-section {
+    margin: 40px auto; /* Tạo khoảng cách trên và dưới */
+    width: 90%; /* Giảm chiều rộng để tạo khoảng cách hai bên */
+    background-color: #ffffff; /* Màu nền trắng */
+    border: 1px solid #ddd; /* Viền nhẹ màu xám nhạt */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    padding: 20px; /* Khoảng cách bên trong */
+    text-align: center; /* Canh giữa nội dung */
+}
+
+/* Tiêu đề của Tin Tức */
+.news-section h2 {
+    font-size: 24px; /* Kích thước chữ */
+    color: #002f5f; /* Màu xanh đậm */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+    text-transform: uppercase; /* Chuyển chữ thành chữ hoa */
+    font-weight: bold; /* Chữ đậm */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ */
+    border-bottom: 2px solid #ddd; /* Đường gạch dưới */
+    display: inline-block; /* Đường gạch chỉ kéo dài vừa đủ */
+    padding-bottom: 5px; /* Khoảng cách giữa chữ và gạch dưới */
+}
+
+/* Khung iframe */
+.news-iframe {
+    width: 100%; /* Chiều rộng đầy đủ */
+    height: 600px; /* Chiều cao cố định */
+    border: none; /* Loại bỏ viền */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    margin-top: 20px; /* Khoảng cách giữa tiêu đề và iframe */
+}

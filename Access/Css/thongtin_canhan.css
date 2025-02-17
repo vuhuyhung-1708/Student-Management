@@ -1,0 +1,82 @@
+/* Reset mặc định */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container chính */
+.profile-container {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+.profile-container h1 {
+    font-size: 28px;
+    color: #002f5f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Phần thông tin cá nhân */
+.profile-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.profile-info strong {
+    color: #002f5f;
+}
+
+/* Nút hành động */
+.profile-actions {
+    margin-top: 20px;
+}
+
+.profile-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #45a049;
+}
+
+.btn-logout {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-logout:hover {
+    background-color: #d32f2f;
+}
+
+/* Icon Boxicons */
+h1 i {
+    margin-right: 10px;
+    color: #002f5f;
+}
+
+button i {
+    margin-right: 5px;
+}

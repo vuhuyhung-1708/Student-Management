@@ -1,0 +1,65 @@
+/* Reset mặc định */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container chính */
+.course-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+.course-container h1 {
+    font-size: 28px;
+    color: #002f5f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Bảng danh sách học phần */
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.course-table th, .course-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.course-table th {
+    background-color: #002f5f;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.course-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.course-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.course-table td {
+    font-size: 16px;
+}
+
+/* Icon Boxicons */
+h1 i {
+    margin-right: 10px;
+    color: #002f5f;
+}

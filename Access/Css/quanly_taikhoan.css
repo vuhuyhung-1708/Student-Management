@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container chính */
+.account-management {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Tiêu đề */
+.account-management h1 {
+    font-size: 28px;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tìm kiếm */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Bảng */
+.account-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.account-table th, .account-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.account-table th {
+    background-color: #0056b3;
+    color: white;
+    text-transform: uppercase;
+}
+
+.account-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.account-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Nút hành động */
+.btn-edit, .btn-delete {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Thêm tài khoản */
+.add-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-add {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #0056b3;
+}
+
+/* Phân trang */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    background-color: #ddd;
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #003f7f;
+    color: white;
+}
